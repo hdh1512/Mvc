@@ -1,0 +1,17 @@
+body {
+    counter-reset: section;
+  }
+  
+  h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
+  ol {
+    counter-reset: section;
+    list-style-type: none;
+  }
+  
+  li::before {
+    counter-increment: section;
+    content: counters(section,".") " ";
+  }
