@@ -1,6 +1,6 @@
 Hoàng Đức Hiếu 2121051191
 
-dotnet aspnet-codegenerator controller -name DailyController -m Daily -dc MvcMovie.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite -f
+dotnet aspnet-codegenerator controller -m Person -dc Mvc.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite -f
 
 
 
